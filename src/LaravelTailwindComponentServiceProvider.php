@@ -15,7 +15,7 @@ class LaravelTailwindComponentServiceProvider extends ServiceProvider
          * Optional methods to load your package assets
          */
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'laravel-tailwind-component');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-tailwind-component');
+         $this->loadViewsFrom(__DIR__.'/../resources/views', 'tw');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
@@ -25,9 +25,9 @@ class LaravelTailwindComponentServiceProvider extends ServiceProvider
             ], 'config');
 
             // Publishing the views.
-            /*$this->publishes([
+            $this->publishes([
                 __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-tailwind-component'),
-            ], 'views');*/
+            ], 'views');
 
             // Publishing assets.
             /*$this->publishes([
@@ -51,10 +51,5 @@ class LaravelTailwindComponentServiceProvider extends ServiceProvider
     {
         // Automatically apply the package configuration
         $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'laravel-tailwind-component');
-
-        // Register the main class to use with the facade
-        $this->app->singleton('laravel-tailwind-component', function () {
-            return new LaravelTailwindComponent;
-        });
     }
 }
