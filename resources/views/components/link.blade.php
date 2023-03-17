@@ -21,7 +21,5 @@
 @endphp
 
 <a {{ $attributes }}>
-    <x-bs::icon :name="$icon"/>
-
     {{ $label ?? $slot }}
 </a>

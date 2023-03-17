@@ -1,11 +1,12 @@
 {
     "name": "laltu/laravel-tailwind-component",
-    "description": "laravel-tailwind-component",
+    "description": "Laravel Tailwind Components",
     "keywords": [
         "laltu",
+        "tailwind-component",
         "laravel-tailwind-component"
     ],
-    "homepage": "https://github.com/laltu/laravel-tailwind-component",
+    "homepage": "https://github.com/laltu/tailwind-component",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -25,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Laltu\\LaravelTailwindComponent\\": "src"
+            "Laltu\\TailwindComponent\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laltu\\LaravelTailwindComponent\\Tests\\": "tests"
+            "Laltu\\TailwindComponent\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Laltu\\LaravelTailwindComponent\\LaravelTailwindComponentServiceProvider"
+                "Laltu\\TailwindComponent\\TailwindComponentServiceProvider"
             ],
             "aliases": {
-                "LaravelTailwindComponent": "Laltu\\LaravelTailwindComponent\\LaravelTailwindComponentFacade"
+                "TailwindComponent": "Laltu\\TailwindComponent\\TailwindComponentFacade"
             }
         }
     }

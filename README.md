@@ -1,8 +1,8 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laltu/laravel-tailwind-component.svg?style=flat-square)](https://packagist.org/packages/laltu/laravel-tailwind-component)
-[![Total Downloads](https://img.shields.io/packagist/dt/laltu/laravel-tailwind-component.svg?style=flat-square)](https://packagist.org/packages/laltu/laravel-tailwind-component)
-![GitHub Actions](https://github.com/laltu/laravel-tailwind-component/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/laltu/tailwind-component.svg?style=flat-square)](https://packagist.org/packages/laltu/tailwind-component)
+[![Total Downloads](https://img.shields.io/packagist/dt/laltu/tailwind-component.svg?style=flat-square)](https://packagist.org/packages/laltu/tailwind-component)
+![GitHub Actions](https://github.com/laltu/tailwind-component/actions/workflows/main.yml/badge.svg)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 

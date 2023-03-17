@@ -45,7 +45,7 @@
     if(!$showIcon) $show_icon = $showIcon;
     if(!$showCloseIcon) $show_close_icon = $showCloseIcon;
 @endphp
-
+517098
 <span class="!border-red-400 hidden"></span>
 <div class="w-full bw-alert flex p-3 {{$color[$shade][$type] }} {{ $color[$shade][$type.'_text'] }} {{ $class }}">
     @if($show_icon)
